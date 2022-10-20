@@ -131,7 +131,7 @@ class VastPlugin extends Plugin {
 
     // Could be initialized already by user
     if (typeof player.ads === 'function') {
-      player.ads({debug: false});
+      player.ads({debug: false, liveCuePoints: false});
     }
 
     /** @type {Object} */
